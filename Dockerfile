@@ -1,5 +1,5 @@
 FROM httpd:2.4-el8
 
-ADD webserver.sh .
+COPY webserver.sh /
 
-CMD ["webserver.sh", "run"]
+CMD ["/bin/bash", "-c", "/webserver.sh"]
