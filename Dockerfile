@@ -1,3 +1,3 @@
-FROM registry.redhat.io/ubi9/httpd-24
+FROM registry.redhat.io/rhscl/httpd-24-rhel7
 ADD index.html /var/www/html/index.html
 CMD run-httpd
