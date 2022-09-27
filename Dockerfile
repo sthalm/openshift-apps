@@ -1,2 +1,3 @@
-FROM httpd:2.4-el8
-CMD ["webserver.sh", "run"]
+FROM registry.redhat.io/ubi9/httpd-24
+ADD index.html /var/www/html/index.html
+CMD run-httpd
