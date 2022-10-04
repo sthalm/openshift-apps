@@ -5,7 +5,3 @@ RUN chmod 775 /var/www/html
 RUN touch /var/www/html/index.html
 RUN chmod 775 /var/www/html/index.html
 RUN /bin/bash /opt/app-root/src/webserver.sh
-# webhook test 1
-# webhook test 2
-# webhook test 3
-# webhook test 4
